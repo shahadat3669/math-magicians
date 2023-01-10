@@ -13,11 +13,17 @@ class Calculator extends Component {
     };
   }
 
+  clickHandler = (e) => {
+    const data = e.target.innerHTML;
+    const result = calculate(this.state, data);
+    this.setState(result);
+  };
+
   render() {
     return (
       <div className="calculator">
         <Display />
-        <ButtonGrid />
+        <ButtonGrid clickHandler={this.clickHandler} />
       </div>
     );
   }
