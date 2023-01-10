@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Display from './Display';
 
 class Calculator extends Component {
   constructor() {
@@ -7,7 +8,11 @@ class Calculator extends Component {
   }
 
   render() {
-    return <div className="calculator">from calculator jsx file</div>;
+    return (
+      <div className="calculator">
+        <Display />
+      </div>
+    );
   }
 }
 export default Calculator;
