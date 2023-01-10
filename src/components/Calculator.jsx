@@ -20,9 +20,11 @@ class Calculator extends Component {
   };
 
   render() {
+    const { total, next, operation } = this.state;
+
     return (
       <div className="calculator">
-        <Display />
+        <Display total={total} next={next} operation={operation} />
         <ButtonGrid clickHandler={this.clickHandler} />
       </div>
     );
