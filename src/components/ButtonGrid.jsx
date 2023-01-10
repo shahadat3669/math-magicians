@@ -25,7 +25,7 @@ class ButtonGrid extends Component {
           className="button button--orange"
           onClick={clickHandler}
         >
-          /
+          ÷
         </button>
         <button type="button" className="button" onClick={clickHandler}>
           7
