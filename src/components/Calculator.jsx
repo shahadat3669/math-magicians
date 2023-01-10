@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Display from './Display';
+import ButtonGrid from './ButtonGrid';
 
 class Calculator extends Component {
   constructor() {
@@ -11,6 +12,7 @@ class Calculator extends Component {
     return (
       <div className="calculator">
         <Display />
+        <ButtonGrid />
       </div>
     );
   }
