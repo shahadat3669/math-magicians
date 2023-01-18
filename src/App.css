@@ -1,3 +1,13 @@
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: calc(100vh - 80px);
+}
+
 .header {
   background-color: #eef2f4;
   position: relative;
