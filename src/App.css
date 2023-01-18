@@ -1,3 +1,52 @@
+.header {
+  background-color: #eef2f4;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title-link {
+  color: #1b3559;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+
+.header__nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-link {
+  height: 100%;
+  border-right: 2px solid #1b3559;
+  color: #1b3559;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-out;
+}
+
+.header__nav-link:hover {
+  color: #df4230;
+}
+
+.header__nav-item:last-child .header__nav-link {
+  border-right: 0;
+}
+
+.active {
+  color: #df4230;
+}
+
 .calculator {
   position: absolute;
   top: 50%;
