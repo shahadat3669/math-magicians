@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonGrid from './ButtonGrid';
 import calculate from './logic/calculate';
