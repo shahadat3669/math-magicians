@@ -94,5 +94,9 @@ const ButtonGrid = (props) => {
 export default ButtonGrid;
 
 ButtonGrid.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func,
+};
+
+ButtonGrid.defaultProps = {
+  clickHandler: null,
 };
