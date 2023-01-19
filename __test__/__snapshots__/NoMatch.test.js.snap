@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render correctly NoMatch component 1`] = `
+<div>
+  <h2>
+    Nothing to see here!
+  </h2>
+  <p>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Go to the home page
+    </a>
+  </p>
+</div>
+`;

@@ -6,133 +6,133 @@ exports[`renders correctly when there are no items 1`] = `
 >
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     AC
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     +/-
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     %
   </button>
   <button
     className="button button--orange"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     ÷
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     7
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     8
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     9
   </button>
   <button
     className="button button--orange"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     x
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     4
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     5
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     6
   </button>
   <button
     className="button button--orange"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     -
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     1
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     2
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     3
   </button>
   <button
     className="button button--orange"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     +
   </button>
   <button
     className="button button--zero"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     0
   </button>
   <button
     className="button"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     .
   </button>
   <button
     className="button button--orange"
-    onClick={null}
+    onClick={[Function]}
     type="button"
   >
     =
