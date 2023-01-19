@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonGrid from './ButtonGrid';
 import calculate from './logic/calculate';
@@ -20,7 +20,7 @@ const Calculator = () => {
     <section className="calculator">
       <h2 className="calculator__title">Let&#39;s do some math!</h2>
       <div className="calculator__container">
-        <Display total={total} next={next} operation={operation} />
+        <Display total={`${total}`} next={`${next}`} operation={operation} />
         <ButtonGrid clickHandler={clickHandler} />
       </div>
     </section>
