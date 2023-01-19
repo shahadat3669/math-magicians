@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- currently no like version available
+- [Live Demo Link](https://math-magicians-gmcu.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
